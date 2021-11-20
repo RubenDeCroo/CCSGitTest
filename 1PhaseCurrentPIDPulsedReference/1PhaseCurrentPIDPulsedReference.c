@@ -14,6 +14,7 @@
  * The duty cycle of the EPWM module is then updated.
  *
  * The reference current I_ref is initialized to 1 A and can be changed in the expressions window.
+ * Test
  */
 
 
@@ -137,7 +138,7 @@ main()
     PieVectTable.TIMER0_INT = &cpu_timer0_isr;
     EDIS;
 
-    /* Initialize CPU period in µs */
+    /* Initialize CPU period in ï¿½s */
     cpuPeriod_us = (1.0/CPUFREQ_MHZ);
 
     /* Initialize Cpu Timers */
